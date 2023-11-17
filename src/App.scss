@@ -1,5 +1,26 @@
 .calculator {
+  border-radius: 15px;
+  border: 2px solid #C91217;
+  padding: 20px;
   margin-inline: auto;
-  width: 600px;
-  border: 1px solid black;
+  width: 500px;
+  display: flex;
+ justify-content: space-between;
+  padding-inline: 30px;
+  &_input {
+  max-width: 200px;
+    align-items: center;
+  }
+  &_hdl {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+  }
+  &_result {
+    max-width: 200px;
+  }
 }
+
+
+
