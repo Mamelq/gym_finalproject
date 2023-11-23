@@ -1,26 +1,23 @@
-.calculator {
-  border-radius: 15px;
-  border: 2px solid #C91217;
-  padding: 20px;
-  margin-inline: auto;
-  width: 500px;
+.app {
+  font-family: 'Arial', sans-serif;
+  background-image: url('./assets/images/gymb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   display: flex;
- justify-content: space-between;
-  padding-inline: 30px;
-  &_input {
-  max-width: 200px;
-    align-items: center;
-  }
-  &_hdl {
-    display: flex;
-    align-items: center;
-    width: 200px;
-    height: 100px;
-  }
-  &_result {
-    max-width: 200px;
+  flex-direction: column;
+
+
+
+  header,
+  .calculator,
+  footer,
+
+  .your-component {
+    flex-shrink: 0;
+    border: none;
   }
 }
-
-
-
