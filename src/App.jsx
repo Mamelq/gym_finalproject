@@ -6,19 +6,16 @@ import './App.scss';
 
 function App() {
     return (
+
         <div className="app">
-            <div className="header">
                 <Header />
-            </div>
 
-            <div className="calculator">
                 <CalculatorBMI />
-            </div>
 
-            <div className="footer">
                 <Footer />
-            </div>
+
         </div>
+
     );
 }
 
