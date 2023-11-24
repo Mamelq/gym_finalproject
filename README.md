@@ -5,7 +5,7 @@ Welcome to the GymBeast BMI Calculator! This React application helps you calcula
 ## Table of Contents
 
 - [Features](#features)
-- [Installation and Running](#installation and Running)
+- [Installation and Running](#installation-and-Running)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Author](#author)
