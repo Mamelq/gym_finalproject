@@ -58,7 +58,7 @@ const BmiCalculator = () => {
     const exercisePlans = {
         cardio: 'Bieganie na bieżni,  Marsz na bieżni,  Orbitrek,  Skakanie na skakance,  Boksowanie na worku bokserskim.',
         strength: 'Pompki klasyczne, Rozpiętki na ławce poziomej, Uginanie Zottmana, Plank, Ośle wspięcia, Przysiady ze sztangą na karku.',
-        flexibility: 'Słonik, Skłony skośne w siadzie rozkrocznym, Rozciąganie obręczy barkowej, Rozciąganie na brzuchu, .',
+        flexibility: 'Słonik, Skłony skośne w siadzie rozkrocznym, Rozciąganie obręczy barkowej, Rozciąganie na brzuchu.',
     };
 
     return (
