@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font-size: 15px;
   }
 
   .footer__column {
@@ -26,7 +27,7 @@
     }
 
     h3 {
-      font-size: 16px;
+      font-size: 10px;
       margin: 0;
     }
 
@@ -36,7 +37,7 @@
   }
 
   .footer__opening-hours {
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 0;
     transition: color 0.5s ease;
   }
@@ -44,6 +45,7 @@
   .footer__gym-beast {
     margin-top: 0;
     font-size: 20px;
+
 
     .gym {
       color: #000;
