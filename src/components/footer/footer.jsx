@@ -3,7 +3,7 @@ import './Footer.scss';
 
 const Footer = () => {
     const [isOpenText, setIsOpenText] = useState(true);
-    const [ratings, setRatings] = useState([]);
+    const [ratings, setRatings] = useState(JSON.parse(localStorage.getItem('ratings')) || []);
     const [newRating, setNewRating] = useState(0);
 
     useEffect(() => {
@@ -13,6 +13,10 @@ const Footer = () => {
 
         return () => clearInterval(interval);
     }, []);
+
+    useEffect(() => {
+        localStorage.setItem('ratings', JSON.stringify(ratings));
+    }, [ratings]);
 
     const handleRatingChange = (event) => {
         const value = parseInt(event.target.value, 10);
