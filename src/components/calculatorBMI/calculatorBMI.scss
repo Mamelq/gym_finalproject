@@ -1,5 +1,5 @@
 .calculator {
-  background-color: #fff;
+  background-color: #333;
   border: 2px solid orange;
   border-radius: 8px;
   padding: 20px;
@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   padding-inline: 30px;
+  color: darkorange;
   &_input {
     max-width: 200px;
     align-items: center;
